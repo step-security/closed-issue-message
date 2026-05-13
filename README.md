@@ -41,9 +41,6 @@ message: |
                                     
 ```
 ![closed issue message example](comment-example.png)
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
 ## License
 

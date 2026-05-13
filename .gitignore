@@ -12,3 +12,4 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 .node_repl_history
 .env
 coverage/
+node_modules

@@ -2,19 +2,24 @@
   "name": "closed-issue-message",
   "version": "2.0.0",
   "description": "GitHub Action that sets a default message to be commented on all issues when they get closed.",
-  "main": "entrypoint.js",
-  "author": "Amazon Web Services, Inc. or its affiliates.",
+  "main": "dist/index.js",
+  "author": "step-security",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aws-actions/closed-issue-message"
+    "url": "git+https://github.com/step-security/closed-issue-message"
   },
   "type": "module",
   "license": "Apache-2.0",
+  "scripts": {
+    "build": "ncc build entrypoint.js -o dist --source-map --license licenses.txt"
+  },
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.0"
+    "@actions/github": "^6.0.0",
+    "axios": "^1.16.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4"
+    "@biomejs/biome": "1.9.4",
+    "@vercel/ncc": "^0.38.1"
   }
 }
