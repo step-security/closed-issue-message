@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": false,
+   "maintained_action_name": "step-security/closed-issue-message",
+   "upstream_full_repo_name": "aws-actions/closed-issue-message",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v2.0.0",
+     "created_at": "2026-05-13T09:10:24Z",
+     "published_at": "2026-05-14T01:31:21Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
